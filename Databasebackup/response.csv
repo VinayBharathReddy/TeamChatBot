@@ -1,0 +1,7 @@
+call_id|response_object
+001|"{'"ok'": '"ok'"}"
+001|"{'"ok'": '"ok'", '"hhe'": '"ok'"}"
+12345123|"{'"1'": '"Yes'", '"2'": '"Satisfied very much'", '"3'": '"Not much appreciable'"}"
+CAd9a7decae4b6fa1f4b88ef09c3b147f6|"{'"SSI01'": '"Yes.'", '"SSI02'": '"Yes.'", '"SSI03'": '"Yes.'", '"SSI04'": '"Yes.'", '"SSI05'": '"Yeh'"}"
+CAc030c5a4137f3e304103df73c8a5f7e4|"{'"SSI01'": '"Yes.'", '"SSI02'": '"sexy'", '"SSI03'": '"Yeah.'", '"SSI04'": '"Wow.'", '"SSI05'": '"Yes.'"}"
+CA5c28d46fe91873608fe408a3f5c3ff49|"{'"SSI01'": '"Yeh'", '"SSI02'": '"Yes.'", '"SSI03'": '"Yes.'", '"SSI04'": '"Yes.'", '"SSI05'": '"Yes.'", '"SSI06'": '"Grey'"}"

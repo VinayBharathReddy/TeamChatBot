@@ -1,0 +1,56 @@
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 10.5
+-- Dumped by pg_dump version 10.5
+
+-- Started on 2019-03-22 07:03:04
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET client_min_messages = warning;
+SET row_security = off;
+
+SET default_tablespace = '';
+
+SET default_with_oids = false;
+
+--
+-- TOC entry 199 (class 1259 OID 16708)
+-- Name: response; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.response (
+    call_id text NOT NULL,
+    response_object json
+);
+
+
+ALTER TABLE public.response OWNER TO postgres;
+
+--
+-- TOC entry 2809 (class 0 OID 16708)
+-- Dependencies: 199
+-- Data for Name: response; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+INSERT INTO public.response VALUES ('001', '{"ok": "ok"}');
+INSERT INTO public.response VALUES ('001', '{"ok": "ok", "hhe": "ok"}');
+INSERT INTO public.response VALUES ('12345123', '{"1": "Yes", "2": "Satisfied very much", "3": "Not much appreciable"}');
+INSERT INTO public.response VALUES ('CAd9a7decae4b6fa1f4b88ef09c3b147f6', '{"SSI01": "Yes.", "SSI02": "Yes.", "SSI03": "Yes.", "SSI04": "Yes.", "SSI05": "Yeh"}');
+INSERT INTO public.response VALUES ('CAc030c5a4137f3e304103df73c8a5f7e4', '{"SSI01": "Yes.", "SSI02": "sexy", "SSI03": "Yeah.", "SSI04": "Wow.", "SSI05": "Yes."}');
+INSERT INTO public.response VALUES ('CA5c28d46fe91873608fe408a3f5c3ff49', '{"SSI01": "Yeh", "SSI02": "Yes.", "SSI03": "Yes.", "SSI04": "Yes.", "SSI05": "Yes.", "SSI06": "Grey"}');
+
+
+-- Completed on 2019-03-22 07:03:07
+
+--
+-- PostgreSQL database dump complete
+--
+
